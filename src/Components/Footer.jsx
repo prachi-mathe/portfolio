@@ -8,7 +8,7 @@ function Footer() {
         <span className="logo">Prachi.</span>
         <div className="links">
           <a href="#">
-            <i className="fab fa-facebook"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="#">
             <i className="fab fa-youtube"></i>

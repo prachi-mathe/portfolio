@@ -9,39 +9,33 @@ function Projects() {
       title: "Project 1",
       description:" Printing canvas, t-shirts etc. on customer demand. Customers can customize the product with clip arts, images, color and many more things that they want to print on their product. And the customized product will be ready to sell from the shopify store and in this application, we are also managing the shopify purchase  products and orders and track order.",
       img: "/projects/1.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
     {
       title: "Project 2",
       description:" Printing canvas, t-shirts etc. on customer demand. Customers can customize the product with clip arts, images, color and many more things that they want to print on their product. And the customized product will be ready to sell from the shopify store and in this application, we are also managing the shopify purchase  products and orders and track order.",
       img: "/projects/2.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
     {
       title: "Project 3",
       img: "/projects/3.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
     {
       title: "Project 4",
       img: "/projects/4.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
     {
       title: "Project 5",
       img: "/projects/5.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
     {
       title: "Project 6",
       img: "/projects/6.png",
-      gLink: "https://github.com/hafizjavaid",
-      lLink: "https://me-hafiz.netlify.app/",
+      gLink: "https://github.com/prachi-mathe/portfolio",
     },
   ]);
   return (
@@ -50,7 +44,7 @@ function Projects() {
         <div className="title">
           <h3>Featured Projects</h3>
           <a
-            href="https://github.com/hafizjavaid"
+            href="https://github.com/prachi-mathe/portfolio"
             target="_blank"
             className="btn"
             rel="noreferrer"
@@ -70,9 +64,7 @@ function Projects() {
                   <a href={project.gLink} target="_blank" rel="noreferrer">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a href={project.lLink} target="_blank" rel="noreferrer">
-                    <i className="fa fa-globe"></i>
-                  </a>
+                
                 </div>
               </div>
               <p>{project.description}</p>

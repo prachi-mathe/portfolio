@@ -40,7 +40,7 @@ function Contact() {
                   <div className="icon-bg">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </div>
-                  <h3>Prachi.mathe0@gmail.com</h3>
+                  <h3 className="heading">Prachi.mathe0@gmail.com</h3>
                 </div>
               </div>
               <div className="contact-start">

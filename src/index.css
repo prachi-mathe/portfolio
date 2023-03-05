@@ -501,7 +501,7 @@ input[type=text]:focus{
   }
   .services .service {
     flex: 0 0 calc(50% - 10px);
-    max-width: calc(50% - 10px);
+    /* max-width: calc(50% - 10px); */
     margin-bottom: 20px;
   }
   .project .img-container {
@@ -551,13 +551,17 @@ input[type=text]:focus{
   .banner .banner-wrapper {
     flex-wrap: wrap;
     height: auto;
-    padding: 50px 0px;
+    padding: 0px 0px;
   }
   .banner .banner-img {
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 20px;
   }
+  .project .img-container img {
+   
+    padding: 30px 30px;
+}
 }
 
 @media (max-width: 660px) {
@@ -607,7 +611,7 @@ input[type=text]:focus{
     max-width: 100%;
   }
   section {
-    padding: 50px 0px !important;
+    padding: 40px 0px !important;
   }
   .projects .title {
     flex-wrap: wrap;
@@ -624,4 +628,31 @@ input[type=text]:focus{
     line-height: 30px;
     margin-bottom: 20px;
   }
+  .contact {
+    display: block;
+    margin-bottom: 25px;
+}
+.contact-start {
+ 
+  padding: 10px 10px;
+  margin-top: 25px;
+}
+.heading{
+  font-size: 12px;
+}
+.btn-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+@media (max-width: 700px) {
+  .contact {
+    display: block;  
+  }
+  .contact-start { 
+    padding: 15px 40px;
+}
 }

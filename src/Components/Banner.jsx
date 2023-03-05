@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import web from '../assets/images/1.png';
+import web from "../assets/images/1.png";
+import webone from "../assets/images/2.png";
+import webtwo from "../assets/images/3.png";
+import webthree from "../assets/images/4.png";
+import webfour from "../assets/images/5.png";
 
 const Banner = () => {
   var settings = {
@@ -17,13 +21,13 @@ const Banner = () => {
       icon: "fa fa-html5",
       title: "Html5",
       desc: "",
-      img: "/images/1.png",
+      // image: "web",
       // active: false,
     },
     {
       icon: "fa-bootstrap",
       title: "Bootstrap",
-      // desc: "Lorem, ipsum dolor sit amet consectetur adipisicing.",
+      image: "/images/.png",
       active: true,
     },
     {
@@ -70,16 +74,31 @@ const Banner = () => {
           <div className="banner-wrapper">
             <div className="banner-img">
               <Slider {...settings}>
-                {webimage.map((service, i) => (
-                  <div
-                    key={i}
-                    className={`service ${service.active ? "active" : ""}`}
-                  >
-                    <div className="img-container">
-                      <img src={web} />
-                    </div>
+                <div>
+                  <div className="img-container">
+                    <img src={web} />
                   </div>
-                ))}
+                </div> <div>
+                  <div className="img-container">
+                    <img src={webone} />
+                  </div>
+                </div>
+                <div>
+                  <div className="img-container">
+                    <img src={webtwo} />
+                  </div>
+                </div>
+                <div>
+                  <div className="img-container">
+                    <img src={webthree} />
+                  </div>
+                </div>
+                <div>
+                  <div className="img-container">
+                    <img src={webfour} />
+                  </div>
+                </div>
+               
               </Slider>
             </div>
             <div className="banner-content">
@@ -103,5 +122,5 @@ const Banner = () => {
     </div>
   );
 };
-     
-export default Banner;      
+
+export default Banner;
